@@ -1,5 +1,5 @@
+# <center>Model-View-Controller (MVC)</center>
 
-# Model-View-Controller (MVC)
 <p align="center">
   <image src="images/mvc.png"></image>
 </p>
