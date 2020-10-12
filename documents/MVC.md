@@ -1,4 +1,4 @@
-# <center>Model-View-Controller (MVC)</center>
+##  Model-View-Controller (MVC)
 
 <p align="center">
   <image src="images/mvc.png"></image>
@@ -15,4 +15,6 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 **Controllers**  coordinate between models and views. Thet are usually subclasses of `UIViewContrller`,
 
 ## Code Example
+
+
 
