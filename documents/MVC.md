@@ -1,6 +1,10 @@
 
 # Model-View-Controller (MVC)
-![mvc](images/mvc.png)
+<p align="center">
+  <image src="images/mvc.png"></image>
+</p>
+
+
 
 The model-view-controller (MVC) pattern separates objects into three types: models, views and controllers.
 
