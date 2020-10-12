@@ -3,20 +3,23 @@
  This repository recorded my study notes and implementations of design patterns in swift.
 
 ## Types of design patterns
-<b>Structural</b>
-Combing and composing objects
- - MVC
+
+<b>1 Structural Patterns</b> Describe how objects are composed to form larger subsystems.
+
+ - [Model-view-controller(MVC)](documents/MVC.md)
  - MVVM
  - Facade
 
-<b>Behavioral</b>
+<b>2 Behavioral Patterns</b>
 Communicating between objects
+
  - Delegation  '
  - Stategy
  -  Observer
 
-<b>Creational</b>
+<b>3 Creational Patterns</b>
 Instantiating objects
+
  - Builder
  - Singleton
  - Prototype
