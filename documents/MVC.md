@@ -18,7 +18,7 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 [Model-View-Controller.playground]
 
 
-[Model-View-Controller.playground]: https://github.com/xuzhao-nick/Design-Patterns-in-Swift/tree/master/samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
+[Model-View-Controller.playground]: ../samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
 
 ***What should you be careful about?***
 
