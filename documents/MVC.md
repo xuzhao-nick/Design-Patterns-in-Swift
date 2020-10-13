@@ -15,14 +15,13 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 **Controllers**  coordinate between models and views. Thet are usually subclasses of `UIViewContrller`,
 
 ## Code Example
+[Model-View-Controller.playground]
 
 
+[Model-View-Controller.playground]: https://github.com/xuzhao-nick/Design-Patterns-in-Swift/tree/master/samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
 
 ***What should you be careful about?***
 
 - Not every object fits into model, view or controller
 - Be careful about controllers growing too big!
 - Use other patterns as needed
-
-
-
