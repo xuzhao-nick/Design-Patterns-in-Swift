@@ -18,3 +18,11 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 
 
 
+***What should you be careful about?***
+
+- Not every object fits into model, view or controller
+- Be careful about controllers growing too big!
+- Use other patterns as needed
+
+
+
