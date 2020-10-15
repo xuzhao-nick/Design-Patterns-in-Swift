@@ -32,7 +32,7 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 
 [Model-View-Controller.playground]: ../samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
 
-
+[SampleProject]: ../samples/MVC-pattern/ "SampleProject"
 
 
 
