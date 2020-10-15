@@ -28,10 +28,9 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 - Use other patterns as needed
 
 ## Code Example
-[Model-View-Controller.playground]
-[SampleProject]
+[Model-View-Controller.playground],[SampleProject]
 [Model-View-Controller.playground]: ../samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
-[SampleProject]: ../samples/MVC-pattern "Sample Project"
+[SampleProject]: ../samples/MVC-pattern/ "Sample Project"
 
 
 
