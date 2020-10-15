@@ -25,13 +25,19 @@ The Model-View-ViewModel (MVVM) pattern separates objects into three types: mode
 - Use with other Patterns
 - May be overkill initially when creating an app
 
+***MVVM Key Points***
+
+- Slims down view Controllers
+- View models take models and transform them to be displayable
+- Okay to start with MVC and convert to MVVM later on
+
 ## Code Example
 [Model-View-ViewModel.playground],[SampleProject]
 
 [Model-View-ViewModel.playground]: ../samples/DesignPatternsPlayGround/Model-View-ViewModel.playground "Model-View-ViewModel.playground"
 
 
-[SampleProject]: ../samples/MVVM/ "SampleProject"
+[SampleProject]: ../samples/MVVM-pattern/ "SampleProject"
 
 
 
