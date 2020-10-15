@@ -6,7 +6,7 @@
 
 
 
-The model-view-controller (MVC) pattern separates objects into three types: models, views and controllers.
+The Model-View-Controller (MVC) pattern separates objects into three types: models, views and controllers.
 
 <b>Models</b> hold noto application data. They are usually structs or simple classes.
 
@@ -32,7 +32,7 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 
 [Model-View-Controller.playground]: ../samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
 
-[SampleProject]: ../samples/MVC-pattern/ "SampleProject"
+[SampleProject]: ../samples/MVC/ "SampleProject"
 
 
 

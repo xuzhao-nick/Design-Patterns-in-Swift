@@ -6,8 +6,8 @@
 
 <b>1 Structural Patterns</b> Describe how objects are composed to form larger subsystems.
 
- - [Model-view-controller(MVC)](documents/MVC.md)
- - MVVM
+ - [Model-View-Controller(MVC)](documents/MVC.md)
+ - [Model-View-ViewModel(MVVM)](documents/MVVM.md)
  - Facade
 
 <b>2 Behavioral Patterns</b>
