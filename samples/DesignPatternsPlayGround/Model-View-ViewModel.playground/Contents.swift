@@ -68,6 +68,15 @@ public class PetViewModel {
     }
 }
 
+extension PetViewModel {
+    public func configure(_ view: PetView) {
+        view.nameLabel.text = name
+        view.imageView.image = image
+        view.ageLabel.text = ageText
+        view.adoptionFeeLabel.text = adoptionFee
+    }
+}
+
 // MARK: - View
 public class PetView: UIView {
     public let imageView: UIImageView
@@ -80,7 +89,7 @@ public class PetView: UIView {
         imageView = UIImageView(frame: childFrame)
         
         childFrame.origin.y += childFrame.height + 16.0
-        childFrame,size.height = 30.0
+        childFrame.size.height = 30.0
         nameLabel = UILabel(frame: childFrame)
         nameLabel.textAlignment = .center
         
@@ -105,3 +114,17 @@ public class PetView: UIView {
         fatalError("Use init(frame:) instead")
     }
 }
+
+// MARK: - Example
+let birthday = Date(timeIntervalSinceNow: -2 * 86400 * 366)
+let image = UIImage(named: "stuart")
+let stuart = Pet(name: "Stuart", birthday: birthday, rarity: .veryRare, image: image!)
+let viewModel = PetViewModel(pet: stuart)
+
+let frame = CGRect(x: 0.0, y: 0.0, width: 300.0, height: 420.0)
+let view = PetView(frame: frame)
+viewModel.configure(view)
+
+PlaygroundPage.current.liveView = view
+
+
