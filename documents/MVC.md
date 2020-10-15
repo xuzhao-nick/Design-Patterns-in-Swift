@@ -12,24 +12,32 @@ The model-view-controller (MVC) pattern separates objects into three types: mode
 
 <b>Views</b> display visual elements and controls on screen. They are usually subclasses of `UIView`.
 
-**Controllers**  coordinate between models and views. Thet are usually subclasses of `UIViewContrller`,
+**Controllers**  coordinate between models and views. Thet are usually subclasses of `UIViewContrller`.
 
-## Code Example
-[Model-View-Controller.playground]
+***MVC Key Points***
 
-
-[Model-View-Controller.playground]: ../samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
+- 3 types: models, views & controllers
+- Reuses models & views
+- Controller coordinates between model & view
+- Good starting point but has limitations
 
 ***What should you be careful about?***
 
 - Not every object fits into model, view or controller
-
 - Be careful about controllers growing too big!
-
 - Use other patterns as needed
 
-  
+## Code Example
+[Model-View-Controller.playground]
+[SampleProject]
+[Model-View-Controller.playground]: ../samples/DesignPatternsPlayGround/Model-View-Controller.playground "Model-View-Controller.playground"
+[SampleProject]: ../samples/MVC-pattern "Sample Project"
 
-  [Back]
 
-  [Back]: ../README.md "Back"
+
+
+
+
+[Back]
+
+[Back]: ../README.md "Back"
