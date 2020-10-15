@@ -20,9 +20,10 @@ The Model-View-ViewModel (MVVM) pattern separates objects into three types: mode
 - Compliments MVC well by moving transformation logic out of view controllers
 
 ## Code Example
-[Model-View-Controller.playground],[SampleProject]
+[Model-View-ViewModel.playground],[SampleProject]
 
 [Model-View-ViewModel.playground]: ../samples/DesignPatternsPlayGround/Model-View-ViewModel.playground "Model-View-ViewModel.playground"
+
 
 [SampleProject]: ../samples/MVVM/ "SampleProject"
 
