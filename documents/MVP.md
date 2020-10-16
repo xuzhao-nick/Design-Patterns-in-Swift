@@ -1,4 +1,4 @@
-##  Model-View-ViewModel (MVVM)
+##  Model-View-Presenter (MVP)
 
 <p align="center">
   <image src="images/mvp.png"></image>
@@ -22,7 +22,7 @@ The Model-View-Presenter (MVP) pattern separates objects into three types: model
 - MVP pattern highly supports Unit Testing, MVC has limited support
 - MVC Controller has lots of UIKit dependencies, MVP Presenter has none
 
-*** When should you use it?***
+***When should you use it?***
 - Our screen has bi-directional-flow, it means that user interactions need to request something from our Model, and the result of this request will affect the View.
 
 - The View affected by the updates from Model are very limited.
@@ -34,7 +34,7 @@ The Model-View-Presenter (MVP) pattern separates objects into three types: model
 
 - The ability to change the UI from Web to Window or Mobile is very easy.
 
-- Low maintaince cost
+- Low maintain cost
 
 ***Drawbacks***
 - The Presenter tends to expand to a huge all-knowing class if we are not careful enough and do not break our code according to Single Responsibility Principle.
