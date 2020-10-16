@@ -28,7 +28,7 @@
 
 import Foundation
 
-struct QuestionData {
+struct QuestionViewData {
   public let answer:String
   public let hint:String
   public let prompt:String
@@ -41,7 +41,7 @@ struct QuestionData {
 }
 
 protocol QuestionViewDelegate: NSObjectProtocol {
-  func showQuestion(_ question:QuestionData)
+  func showQuestion(_ question:QuestionViewData)
   func showCorrectCount(_ correctCount:Int)
   func showIncorrectCount(_ incorrectCount:Int)
 }
@@ -61,13 +61,13 @@ class QuestionPresenter: NSObject {
   }
   
   func handleCorrect() {
-    gameData.correctCount += 1
+    gameData.increaseCorrectCount()
     self.questionViewDelegate?.showCorrectCount(gameData.correctCount)
     self.nextQuestion()
   }
   
   func handleIncorrect() {
-    gameData.incorrectCount += 1
+    gameData.increaseIncorrectCount()
     self.questionViewDelegate?.showIncorrectCount(gameData.incorrectCount)
     self.nextQuestion()
   }
@@ -80,8 +80,8 @@ class QuestionPresenter: NSObject {
   
   private func showQuestion() {
     let question = gameData.getQuestion()
-    let questionData = QuestionData(question)
-    self.questionViewDelegate?.showQuestion(questionData)
+    let questionViewData = QuestionViewData(question)
+    self.questionViewDelegate?.showQuestion(questionViewData)
   }
   
 

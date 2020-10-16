@@ -64,7 +64,7 @@ public class QuestionViewController: UIViewController,QuestionViewDelegate {
 
 
 extension QuestionViewController {
-  func showQuestion(_ question:QuestionData) {
+  func showQuestion(_ question:QuestionViewData) {
     questionView.answerLabel.text = question.answer
     questionView.promptLabel.text = question.prompt
     questionView.hintLabel.text = question.hint

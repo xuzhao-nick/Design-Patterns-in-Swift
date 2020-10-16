@@ -32,8 +32,8 @@ struct QuestionAnswerGameData {
   private var questionGroup:QuestionGroup
   private var questionIndex = 0
   
-  public var correctCount = 0
-  public var incorrectCount = 0
+  private var _correctCount = 0
+  private var _incorrectCount = 0
   
   public init() {
     questionGroup = QuestionGroup.basicPhrases()
@@ -41,8 +41,24 @@ struct QuestionAnswerGameData {
   
   public mutating func resetGame() {
     questionIndex = 0
-    correctCount = 0
-    incorrectCount = 0
+    _correctCount = 0
+    _incorrectCount = 0
+  }
+  
+  public mutating func increaseCorrectCount () {
+    _correctCount += 1
+  }
+  
+  public mutating func increaseIncorrectCount() {
+    _incorrectCount += 1
+  }
+  
+  public var correctCount: Int {
+    return _correctCount
+  }
+  
+  public var incorrectCount: Int {
+    return _incorrectCount
   }
   
   public mutating func nextQuestion() {
@@ -56,6 +72,5 @@ struct QuestionAnswerGameData {
   func getQuestion() -> Question {
     return questionGroup.questions[questionIndex]
   }
-  
   
 }
