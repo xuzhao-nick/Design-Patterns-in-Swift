@@ -32,7 +32,7 @@ Describe how objects exchange information with each other.
 <b>3 Creational Patterns</b>
 Instantiating objects, help to separate the usage of an object from its instantiation.
 
- - Builder
+ - [Builder](documents/Builder.md) Builder pattern lets you construct complex objects step by step. 
  - [Singleton](documents/Singleton.md) Ensures that there's one instance of a type.
  - [Prototype](documents/Prototype.md) Concerned with the cloning of objects.
- - [Factory Method](documents/Factory.md) Creates objects without exposing its type to callers.
+ - [Factory](documents/Factory.md) Creates objects without exposing its type to callers.
