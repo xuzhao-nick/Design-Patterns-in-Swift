@@ -1,4 +1,4 @@
-##  Prototype pattern
+##  Prototype
 
 <p align="center">
   <image src="images/prototype.png"></image>
