@@ -8,10 +8,10 @@
 Define and manage the relationships between the objects.
 Describe how objects are composed to form larger subsystems.
 
- - [Model-View-Controller(MVC)](documents/MVC.md)
- - [Model-View-ViewModel(MVVM)](documents/MVVM.md)
- - [Model-View-Presenter(MVP)](documents/MVP.md)
- - [View-Interactor-Presenter-Entity-Router(VIPER)](documents/VIPER.md)
+ - [Model-View-Controller(MVC)](documents/MVC.md) MVC pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements.
+ - [Model-View-ViewModel(MVVM)](documents/MVVM.md) MVVM pattern is also referred to as model–view–binder.
+ - [Model-View-Presenter(MVP)](documents/MVP.md) MVP pattern is a derivative from MVC, that you can use to deal with some of the shortcomings of MVC.
+ - [View-Interactor-Presenter-Entity-Router(VIPER)](documents/VIPER.md) VIPER is a pattern similar to MVC or MVVM, but it separates the code further by single responsibility.
  - [Adapter](documents/Adapter.md) Wraps an incompatible type and exposes an interface that's familiar to the caller.
  - [Decorator](documents/Decorator.md) Enhances existing types without changing their source code.
  - [Facade](documents/Facade.md) Simplifies the usage of complex types.
