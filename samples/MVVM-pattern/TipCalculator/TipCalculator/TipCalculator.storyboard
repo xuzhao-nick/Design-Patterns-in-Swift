@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Qd-St-92k">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tip Calculator-->
+        <scene sceneID="Vco-RO-qq4">
+            <objects>
+                <viewController id="RrD-62-xJA" customClass="TipCalcViewController" customModule="TipCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vfu-yE-RIE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bYx-M7-lS5">
+                                <rect key="frame" x="20" y="108" width="122" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Percentage:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQo-5Q-nOn">
+                                <rect key="frame" x="20" y="204" width="136" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total amount: 144.6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQH-3l-j5Y">
+                                <rect key="frame" x="20" y="390" width="374" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-MediumItalic" family="Avenir Next" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Amount: 24.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVH-7a-gBK">
+                                <rect key="frame" x="20" y="424" width="374" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-MediumItalic" family="Avenir Next" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter total bill amount here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="th0-vg-ON8">
+                                <rect key="frame" x="20" y="142" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7co-eZ-3bD"/>
+                                </constraints>
+                                <color key="textColor" red="0.60446375610000003" green="0.11057300120000001" blue="0.1215279922" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="233-nP-HKU">
+                                <rect key="frame" x="20" y="183" width="374" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Y0E-3h-0ib"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Rs-NJ-Z3S">
+                                <rect key="frame" x="20" y="273" width="374" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Vah-7Y-PhZ"/>
+                                </constraints>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="HTE-mS-QTz">
+                                <rect key="frame" x="20" y="238" width="374" height="32"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <segments>
+                                    <segment title="10"/>
+                                    <segment title="15"/>
+                                    <segment title="20"/>
+                                    <segment title="25"/>
+                                </segments>
+                                <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="selectedSegmentTintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of People:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vaw-Lw-Heo">
+                                <rect key="frame" x="20" y="294" width="165" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Total number of people..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RIe-GY-W61">
+                                <rect key="frame" x="20" y="328" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="3JI-IX-mAe"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="g0A-g0-rg0"/>
+                                </constraints>
+                                <color key="textColor" red="0.60446375610000003" green="0.11057300120000001" blue="0.1215279922" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fDF-r9-6wq">
+                                <rect key="frame" x="20" y="369" width="374" height="1"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="7wv-Qn-MpA"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="HCf-u3-KQc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="bYx-M7-lS5" firstAttribute="top" secondItem="CwS-Th-SYf" secondAttribute="top" constant="20" id="1zn-Ec-6LY"/>
+                            <constraint firstItem="RQo-5Q-nOn" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="6Lq-hK-wVo"/>
+                            <constraint firstItem="HTE-mS-QTz" firstAttribute="top" secondItem="RQo-5Q-nOn" secondAttribute="bottom" constant="8" id="7GU-WC-aQM"/>
+                            <constraint firstItem="CwS-Th-SYf" firstAttribute="trailing" secondItem="CVH-7a-gBK" secondAttribute="trailing" constant="20" id="8Jx-Mk-mjg"/>
+                            <constraint firstItem="BQH-3l-j5Y" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="CdM-ex-F3z"/>
+                            <constraint firstItem="RQo-5Q-nOn" firstAttribute="top" secondItem="233-nP-HKU" secondAttribute="bottom" constant="20" id="Cmg-y3-lR6"/>
+                            <constraint firstItem="9Rs-NJ-Z3S" firstAttribute="leading" secondItem="Vfu-yE-RIE" secondAttribute="leading" constant="20" id="EsY-AC-kWK"/>
+                            <constraint firstItem="CwS-Th-SYf" firstAttribute="trailing" secondItem="th0-vg-ON8" secondAttribute="trailing" constant="20" id="F5B-KM-4LO"/>
+                            <constraint firstItem="CVH-7a-gBK" firstAttribute="top" secondItem="BQH-3l-j5Y" secondAttribute="bottom" constant="8" id="IKB-Yu-dHb"/>
+                            <constraint firstItem="th0-vg-ON8" firstAttribute="top" secondItem="bYx-M7-lS5" secondAttribute="bottom" constant="8" id="IzP-Yt-Ui2"/>
+                            <constraint firstItem="9Rs-NJ-Z3S" firstAttribute="top" secondItem="HTE-mS-QTz" secondAttribute="bottom" constant="4" id="JqC-FJ-uQh"/>
+                            <constraint firstItem="RIe-GY-W61" firstAttribute="top" secondItem="Vaw-Lw-Heo" secondAttribute="bottom" constant="8" id="K27-Nw-73k"/>
+                            <constraint firstItem="CVH-7a-gBK" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="M0V-IV-cQb"/>
+                            <constraint firstItem="CwS-Th-SYf" firstAttribute="trailing" secondItem="HTE-mS-QTz" secondAttribute="trailing" constant="20" id="N63-Lq-V1U"/>
+                            <constraint firstItem="233-nP-HKU" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="QfY-gq-OrE"/>
+                            <constraint firstItem="233-nP-HKU" firstAttribute="top" secondItem="th0-vg-ON8" secondAttribute="bottom" constant="1" id="XyI-dM-Hzu"/>
+                            <constraint firstItem="HTE-mS-QTz" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="ZO8-du-PTa"/>
+                            <constraint firstItem="Vaw-Lw-Heo" firstAttribute="top" secondItem="9Rs-NJ-Z3S" secondAttribute="bottom" constant="20" id="ZpO-9Z-ATD"/>
+                            <constraint firstItem="fDF-r9-6wq" firstAttribute="top" secondItem="RIe-GY-W61" secondAttribute="bottom" constant="1" id="bCv-H6-uK0"/>
+                            <constraint firstItem="fDF-r9-6wq" firstAttribute="leading" secondItem="Vfu-yE-RIE" secondAttribute="leading" constant="20" id="cE8-Gg-wpm"/>
+                            <constraint firstItem="RIe-GY-W61" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="fNd-LF-6k4"/>
+                            <constraint firstItem="CwS-Th-SYf" firstAttribute="trailing" secondItem="233-nP-HKU" secondAttribute="trailing" constant="20" id="g3S-oI-8QU"/>
+                            <constraint firstItem="BQH-3l-j5Y" firstAttribute="top" secondItem="fDF-r9-6wq" secondAttribute="bottom" constant="20" id="jvO-Vd-BC0"/>
+                            <constraint firstAttribute="trailing" secondItem="fDF-r9-6wq" secondAttribute="trailing" constant="20" id="m3n-lx-voX"/>
+                            <constraint firstItem="CwS-Th-SYf" firstAttribute="trailing" secondItem="RIe-GY-W61" secondAttribute="trailing" constant="20" id="nVt-1Z-FlU"/>
+                            <constraint firstItem="Vaw-Lw-Heo" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="qlH-ff-wv6"/>
+                            <constraint firstAttribute="trailing" secondItem="9Rs-NJ-Z3S" secondAttribute="trailing" constant="20" id="suV-Nj-2Ov"/>
+                            <constraint firstItem="bYx-M7-lS5" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="u1Z-jW-u8P"/>
+                            <constraint firstItem="CwS-Th-SYf" firstAttribute="trailing" secondItem="BQH-3l-j5Y" secondAttribute="trailing" constant="20" id="vYr-TH-vNj"/>
+                            <constraint firstItem="th0-vg-ON8" firstAttribute="leading" secondItem="CwS-Th-SYf" secondAttribute="leading" constant="20" id="xsw-aL-txG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="CwS-Th-SYf"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tip Calculator" id="iXL-By-P6x"/>
+                    <connections>
+                        <outlet property="newTotalLabel" destination="BQH-3l-j5Y" id="2Nf-zZ-iQW"/>
+                        <outlet property="numberOfPeople" destination="RIe-GY-W61" id="rUb-ny-Yud"/>
+                        <outlet property="tipAmountLabel" destination="CVH-7a-gBK" id="avM-9T-Fbb"/>
+                        <outlet property="tipPercent" destination="HTE-mS-QTz" id="6Ye-9e-s2T"/>
+                        <outlet property="totalAmount" destination="th0-vg-ON8" id="oXg-p0-nrW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8kG-DR-bQC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050.7246376811595" y="112.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8nf-hW-L0t">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8Qd-St-92k" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WKd-Q5-BUJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RrD-62-xJA" kind="relationship" relationship="rootViewController" id="tLW-3m-a8F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9VV-s6-bab" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="112.5"/>
+        </scene>
+    </scenes>
+</document>

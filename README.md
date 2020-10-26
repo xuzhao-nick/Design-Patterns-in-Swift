@@ -22,5 +22,5 @@ Communicating between objects
 Instantiating objects
 
  - Builder
- - Singleton
+ - [Singleton](documents/Singleton.md)
  - Prototype
