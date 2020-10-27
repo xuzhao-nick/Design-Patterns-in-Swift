@@ -25,6 +25,11 @@ For example, `JSONEncoder` and `JSONDecoder` allow an object to be encoded into 
 - For example, to implement a "save game" system
 - By persisting an array of mementos, can implement undo/redo stacks
 
+***What should you be careful about?***
+
+- Be careful about removing `Codable` properties
+- Don't use `try!` unless you're sure the operation will succeed
+- Carefully consider versioning and model upgrades
 
 
 ## Code Example
