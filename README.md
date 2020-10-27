@@ -22,12 +22,13 @@ Describe how objects are composed to form larger subsystems.
 Communicating between objects.
 Describe how objects exchange information with each other.
 
+ - [Delegation](documents/Delegation.md) The delegation pattern allows an object to use a helper object to perform a task.
+ - [Strategy](documents/Strategy.md) The strategy pattern defines a family of interchangeable objects that can be set or switched at runtime. 
+ - [Observer](documents/Observer.md) Lets objects subscribe for notifications without being tightly coupled to the sender.
  - [Chain of Responsibility](documents/Chain_of_Responsibility.md) Decouples the sender of a request from its receivers.
  - [Iterator](documents/Iterator.md) Provides sequential access to the elements of an aggregate object.
- - [Observer](documents/Observer.md) Lets objects subscribe for notifications without being tightly coupled to the sender.
  - [State](documents/State.md) Replaces complex conditional logic with an object-oriented state machine.
- - [Delegation](documents/Delegation.md) The delegation pattern allows an object to use a helper object to perform a task.
- - Stategy
+ - [Memento](documents/Memento.md) 
 
 <b>3 Creational Patterns</b>
 Instantiating objects, help to separate the usage of an object from its instantiation.
