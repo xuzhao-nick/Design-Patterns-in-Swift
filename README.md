@@ -4,7 +4,7 @@
 
 ## Types of design patterns
 
-<b>1 Structural Patterns</b> 
+<b>1 Structural Patterns</b>
 Define and manage the relationships between the objects.
 Describe how objects are composed to form larger subsystems.
 
@@ -17,24 +17,28 @@ Describe how objects are composed to form larger subsystems.
  - [Facade](documents/Facade.md) Simplifies the usage of complex types.
  - [Flyweight](documents/Flyweight.md) Reduces memory usage by sharing comon data between objects.
  - [Proxy](documents/Proxy.md) Cloaks an object and postpones time-consuming operations until they are needed.
+ - [Composite](documents/Composite.md) Groups a set of objects into a tree structure so they may be manipulated as though they were one object.
+- [Coordinator](documents/Coordinator.md) Organizing flow logic between view controllers.
 
 <b>2 Behavioral Patterns</b>
 Communicating between objects.
 Describe how objects exchange information with each other.
 
  - [Delegation](documents/Delegation.md) The delegation pattern allows an object to use a helper object to perform a task.
- - [Strategy](documents/Strategy.md) The strategy pattern defines a family of interchangeable objects that can be set or switched at runtime. 
+ - [Strategy](documents/Strategy.md) The strategy pattern defines a family of interchangeable objects that can be set or switched at runtime.
  - [Observer](documents/Observer.md) Lets objects subscribe for notifications without being tightly coupled to the sender.
  - [Chain of Responsibility](documents/Chain_of_Responsibility.md) Decouples the sender of a request from its receivers.
  - [Iterator](documents/Iterator.md) Provides sequential access to the elements of an aggregate object.
  - [State](documents/State.md) Replaces complex conditional logic with an object-oriented state machine.
- - [Memento](documents/Memento.md) The memento pattern allows an object to be saved and restored. 
+ - [Memento](documents/Memento.md) The memento pattern allows an object to be saved and restored.
  - [Multicast Delegate](documents/MulticastDelegate.md) This is a variation on the delegate pattern.
+  - [Mediator](documents/Mediator.md) Encapsulates how objects communicate with one another.
+  - [Command](doucuments/Command.md) Encapsulates information to perform an action into a command object.
 
 <b>3 Creational Patterns</b>
 Instantiating objects, help to separate the usage of an object from its instantiation.
 
- - [Builder](documents/Builder.md) Builder pattern lets you construct complex objects step by step. 
+ - [Builder](documents/Builder.md) Builder pattern lets you construct complex objects step by step.
  - [Singleton](documents/Singleton.md) Ensures that there's one instance of a type.
  - [Prototype](documents/Prototype.md) Concerned with the cloning of objects.
  - [Factory](documents/Factory.md) Creates objects without exposing its type to callers.
