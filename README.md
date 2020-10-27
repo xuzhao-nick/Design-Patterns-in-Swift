@@ -26,7 +26,7 @@ Describe how objects exchange information with each other.
  - [Iterator](documents/Iterator.md) Provides sequential access to the elements of an aggregate object.
  - [Observer](documents/Observer.md) Lets objects subscribe for notifications without being tightly coupled to the sender.
  - [State](documents/State.md) Replaces complex conditional logic with an object-oriented state machine.
- - Delegation 
+ - [Delegation](documents/Delegation.md) The delegation pattern allows an object to use a helper object to perform a task.
  - Stategy
 
 <b>3 Creational Patterns</b>
