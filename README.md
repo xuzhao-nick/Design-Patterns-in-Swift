@@ -29,6 +29,7 @@ Describe how objects exchange information with each other.
  - [Iterator](documents/Iterator.md) Provides sequential access to the elements of an aggregate object.
  - [State](documents/State.md) Replaces complex conditional logic with an object-oriented state machine.
  - [Memento](documents/Memento.md) The memento pattern allows an object to be saved and restored. 
+ - [Multicast Delegate](documents/MulticastDelegate.md) This is a variation on the delegate pattern.
 
 <b>3 Creational Patterns</b>
 Instantiating objects, help to separate the usage of an object from its instantiation.
