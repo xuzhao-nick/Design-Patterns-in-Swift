@@ -28,7 +28,7 @@ Describe how objects exchange information with each other.
  - [Chain of Responsibility](documents/Chain_of_Responsibility.md) Decouples the sender of a request from its receivers.
  - [Iterator](documents/Iterator.md) Provides sequential access to the elements of an aggregate object.
  - [State](documents/State.md) Replaces complex conditional logic with an object-oriented state machine.
- - [Memento](documents/Memento.md) 
+ - [Memento](documents/Memento.md) The memento pattern allows an object to be saved and restored. 
 
 <b>3 Creational Patterns</b>
 Instantiating objects, help to separate the usage of an object from its instantiation.
