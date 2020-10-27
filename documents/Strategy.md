@@ -16,11 +16,16 @@ The pattern has three parts:
 - The <b>strategy protocol</b> defines methods that every strategy must implement.
 - The <b>strategies</b> are objects that conform to the strategy protocol.
 
-***What should you be careful about?***
+***When should you use it?***
 
 - Two or more interchangeable behaviours
 - Family of objects, instead of one
 - Easily changeable at runtime
+
+***What should you be careful about?***
+
+- Pre-optimising and overusing this pattern
+- If behavior won't change, okay to code it in a controller/object
 
 ## Code Example
 [SampleProject]
