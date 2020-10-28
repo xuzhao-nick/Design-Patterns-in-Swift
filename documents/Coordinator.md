@@ -29,6 +29,11 @@ This pattern can be adopted for only part of an app, or it can be used as an <b>
 
 - Consequently, view controllers are much more reusable: If you want to create a new flow within your app, you simply create a new coordinator.
 
+***What should you be careful about?***
+- Make sure you handle going-back functionality when using this pattern. Specifically, make sure you provide any required teardown code passed into `onDismiss` on the coordinator's `present(animated:onDismiss:)`
+- For very simple apps, the Coordinator pattern may seem like overkill. You'll be required to create many additional classes upfront
+- For long-term or complex apps, the coordinator pattern can help you provide needed structure and increase view controller's reusability
+
 ## Code Example
 [SampleProject]
 
