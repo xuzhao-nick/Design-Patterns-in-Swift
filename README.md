@@ -33,7 +33,7 @@ Describe how objects exchange information with each other.
  - [Memento](documents/Memento.md) The memento pattern allows an object to be saved and restored.
  - [Multicast Delegate](documents/MulticastDelegate.md) This is a variation on the delegate pattern.
   - [Mediator](documents/Mediator.md) Encapsulates how objects communicate with one another.
-  - [Command](doucuments/Command.md) Encapsulates information to perform an action into a command object.
+  - [Command](documents/Command.md) Encapsulates information to perform an action into a command object.
 
 <b>3 Creational Patterns</b>
 Instantiating objects, help to separate the usage of an object from its instantiation.
