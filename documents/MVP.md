@@ -1,4 +1,4 @@
-##  Model-View-Presenter (MVP)
+##  Model-View-Presenter (MVP) pattern
 
 <p align="center">
   <image src="images/mvp.png"></image>

@@ -1,4 +1,4 @@
-##  Strategy
+##  Strategy pattern
 
 <p align="center">
   <image src="images/strategy.png"></image>

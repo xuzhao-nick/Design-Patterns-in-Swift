@@ -1,4 +1,4 @@
-##  Chain of Responsibility
+##  Chain of Responsibility pattern
 
 <p align="center">
   <image src="images/chain.png"></image>

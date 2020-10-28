@@ -1,4 +1,4 @@
-##  Facade
+##  Facade pattern
 
 <p align="center">
   <image src="images/facade.png"></image>
@@ -15,7 +15,7 @@ It involves two types:
 
 ***When should you use it?***
 
-- Use whenever you have a system of components that each perform a small part of a larger task, for example, a product ordering system with multiple pieces: customer management, inventory, shipping,etc. 
+- Use whenever you have a system of components that each perform a small part of a larger task, for example, a product ordering system with multiple pieces: customer management, inventory, shipping,etc.
 
 ***What should you be careful about?***
 

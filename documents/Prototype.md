@@ -1,4 +1,4 @@
-##  Prototype
+##  Prototype pattern
 
 <p align="center">
   <image src="images/prototype.png"></image>
@@ -10,7 +10,7 @@ Helps us when creating multiple instances of the same type is expensive or ineff
 
 Prototype pattern is used to optimize expensive instantiation time/space consuming. For example, if we need to open same file and create 100 file handlers, it need 100 times instance instantiation, which is very expensive.
 By apply Prototype pattern, we copy(clone) the instance instead of constructing it from scratch.
-The pattern is quite simple: the Prototype interface declares a method for cloning itself, while the Concrete Prototype implements the operation for cloning itself. 
+The pattern is quite simple: the Prototype interface declares a method for cloning itself, while the Concrete Prototype implements the operation for cloning itself.
 
 ***Challenges***
 

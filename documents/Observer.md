@@ -1,4 +1,4 @@
-##  Observer
+##  Observer pattern
 
 <p align="center">
   <image src="images/observer.png"></image>

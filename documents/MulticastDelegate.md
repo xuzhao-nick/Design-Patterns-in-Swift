@@ -1,4 +1,4 @@
-##  Multicast Delegate
+##  Multicast Delegate pattern
 
 <p align="center">
   <image src="images/multicast-delegate.png"></image>

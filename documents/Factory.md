@@ -1,4 +1,4 @@
-##  Factory
+##  Factory pattern
 
 <p align="center">
   <image src="images/factory.png"></image>
@@ -14,7 +14,7 @@ The Factory pattern is widely used in Swift code. It’s very useful when you ne
 ***Challenges***
 
 - The factory pattern is limited to types that share a common protocol or superclass.
- 
+
 
 
 ## Code Example

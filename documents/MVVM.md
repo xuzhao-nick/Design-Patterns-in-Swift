@@ -1,4 +1,4 @@
-##  Model-View-Presenter (MVP)
+##  Model-View-ViewModel (MVVM) pattern
 
 <p align="center">
   <image src="images/mvvm.png"></image>

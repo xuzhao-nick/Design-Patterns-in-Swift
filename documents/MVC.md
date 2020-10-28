@@ -1,4 +1,4 @@
-##  Model-View-Controller (MVC)
+##  Model-View-Controller (MVC) pattern
 
 <p align="center">
   <image src="images/mvc.png"></image>

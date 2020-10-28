@@ -1,4 +1,4 @@
-##  Memento
+##  Memento pattern
 
 <p align="center">
   <image src="images/memento.png"></image>
@@ -6,7 +6,7 @@
 
 
 
-The memento pattern allows an object to be saved and restored. 
+The memento pattern allows an object to be saved and restored.
 
 It has three parts:
 

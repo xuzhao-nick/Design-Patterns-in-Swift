@@ -1,4 +1,4 @@
-##  View-Interactor-Presenter-Entity-Router(VIPER)
+##  View-Interactor-Presenter-Entity-Router(VIPER) pattern
 
 <p align="center">
   <image src="images/viper.png"></image>

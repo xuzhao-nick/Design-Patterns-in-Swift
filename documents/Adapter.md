@@ -1,4 +1,4 @@
-##  Adapter
+##  Adapter pattern
 
 <p align="center">
   <image src="images/adapter.png"></image>

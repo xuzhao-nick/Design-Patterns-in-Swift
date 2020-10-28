@@ -1,4 +1,4 @@
-##  Delegation
+##  Delegation pattern
 
 <p align="center">
   <image src="images/delegation.png"></image>

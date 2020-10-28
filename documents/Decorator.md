@@ -1,4 +1,4 @@
-##  Decorator
+##  Decorator pattern
 
 <p align="center">
   <image src="images/decorator.png"></image>

@@ -1,4 +1,4 @@
-##  Builder
+##  Builder pattern
 
 <p align="center">
   <image src="images/builder.png"></image>
@@ -20,9 +20,9 @@ The pattern allows you to produce different types and representations of an obje
 
 ***Different between Builder and Factory***
 
-- Builder focuses on constructing complex objects step by step. Factory specializes in creating families of related objects. 
+- Builder focuses on constructing complex objects step by step. Factory specializes in creating families of related objects.
 - Factory pattern returns the product immediately, whereas Builder lets you run some additional construction steps before fetching the product.
- 
+
 ***What shuold you be careful about?***
 
 - Maybe overkill if a product doesn't require multiple inputs over several steps.

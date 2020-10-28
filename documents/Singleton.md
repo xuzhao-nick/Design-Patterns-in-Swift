@@ -1,4 +1,4 @@
-##  Singleton
+##  Singleton pattern
 
 <p align="center">
   <image src="images/singleton.png"></image>

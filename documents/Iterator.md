@@ -1,4 +1,4 @@
-##  Iterator
+##  Iterator pattern
 
 <p align="center">
   <image src="images/iterator.png"></image>

@@ -1,4 +1,4 @@
-##  State
+##  State pattern
 
 <p align="center">
   <image src="images/state.png"></image>

@@ -1,4 +1,4 @@
-##  Proxy
+##  Proxy pattern
 
 <p align="center">
   <image src="images/proxy.png"></image>
